@@ -42,14 +42,14 @@ import io
 bot = Client(
     "bot",
     bot_token=os.environ.get(
-        "BOT_TOKEN", "7403953709:AAFVPP9OGBWuqWSTMcD-ZjrqdeD2Xw4L72Q"
+        "BOT_TOKEN", "7471507395:AAEsy8BQrIM2wr2VqBU16xYPVTBdNpGJ3Bg"
     ),
-    api_id=int(os.environ.get("API_ID", "22922437")),
-    api_hash=os.environ.get("API_HASH", "993ba20fa7ce13ec05a9b59111224f70"),
+    api_id=int(os.environ.get("API_ID", "24515547")),
+    api_hash=os.environ.get("API_HASH", "0809699a061f02fbbcc1a6c4443547ee"),
 )
 auth_users = [
     int(chat)
-    for chat in os.environ.get("AUTH_USERS", "6624826381").split(",")
+    for chat in os.environ.get("AUTH_USERS", "7503180362").split(",")
     if chat != ""
 ]
 sudo_users = auth_users
