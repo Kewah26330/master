@@ -42,7 +42,7 @@ import io
 bot = Client(
     "bot",
     bot_token=os.environ.get(
-        "BOT_TOKEN", "7471507395:AAEsy8BQrIM2wr2VqBU16xYPVTBdNpGJ3Bg"
+        "BOT_TOKEN", "7645073824:AAFyfsGNTVvaMH1fTqpj2yz1-auyLCBt3TU"
     ),
     api_id=int(os.environ.get("API_ID", "24515547")),
     api_hash=os.environ.get("API_HASH", "0809699a061f02fbbcc1a6c4443547ee"),
@@ -61,11 +61,11 @@ keyboard = InlineKeyboardMarkup(
         [
             InlineKeyboardButton(
                 text="Devloper",
-                url="https://pornhub.com/",
+                url="https://t.me/ex_dragon",
             ),
             InlineKeyboardButton(
-                text="Repo",
-                url="https://lund-chushLoo.com/repo",
+                text="Createdby",
+                url="https://t.me/ex_dragon",
             ),
         ],
     ]
